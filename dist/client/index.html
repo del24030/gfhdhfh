@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <script src="/language.js"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Message privately with Kall. Start with a username, keep your personal number private, and take your conversations with you."
+    />
+    <title>Kall — Private communications</title>
+    <link rel="stylesheet" href="/home.css" />
+    <link rel="alternate" hreflang="es" href="/es/" />
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="#">Kall</a>
+      <nav aria-label="Main navigation">
+        <a href="#features">Features</a><a href="#product">About</a
+        ><a href="#privacy">Privacy</a
+        ><a class="nav-early-access" href="#early-access">Early access</a
+        ><a href="/es/" lang="es" hreflang="es" data-language-choice="es"
+          >Español</a
+        >
+      </nav>
+    </header>
+    <main>
+      <div class="wrap">
+        <section class="hero">
+          <div>
+            <h1>Start with a username.<br /><em>Chat in private.</em></h1>
+            <p>
+              Send end-to-end encrypted messages from your browser and keep your
+              personal number to yourself.
+            </p>
+            <a class="button" href="#early-access">Request early access</a>
+          </div>
+          <div class="visual">
+            <img
+              src="relay-floating.png"
+              width="1024"
+              height="1536"
+              alt="Floating sage phone showing Kall’s lavender-accented conversation with Alex"
+            />
+          </div>
+        </section>
+      </div>
+      <section class="relay-world-section" aria-labelledby="relay-world-title">
+        <h2 id="relay-world-title">Conversations across the world.</h2>
+        <div class="relay-world">
+          <canvas
+            class="relay-earth"
+            width="360"
+            height="360"
+            role="img"
+            aria-label="Rotating globe with dotted continents"
+          ></canvas>
+          <ul
+            class="hero-conversation"
+            aria-label="Messages in different languages"
+          >
+            <li
+              lang="en"
+              data-lat="40.71"
+              data-lon="-74.01"
+              class="bubble-color-1"
+              data-phrases="How’s your day?|Talk soon!"
+            >
+              Oh, hello!
+            </li>
+            <li
+              lang="fr"
+              data-lat="48.86"
+              data-lon="2.35"
+              class="bubble-color-2"
+              data-phrases="Salut, ça va ?|À bientôt !"
+            >
+              Bonjour, mademoiselle !
+            </li>
+            <li
+              lang="pt"
+              data-lat="-23.55"
+              data-lon="-46.63"
+              class="bubble-color-3"
+              data-phrases="Tudo bem por aí?|Me conta as novidades!"
+            >
+              Como tá você?
+            </li>
+            <li
+              lang="es"
+              data-lat="40.42"
+              data-lon="-3.70"
+              class="bubble-color-4"
+              data-phrases="¿Cómo va todo?|¡Qué gusto verte!"
+            >
+              Hola, ¿qué tal?
+            </li>
+            <li
+              lang="ja"
+              data-lat="35.68"
+              data-lon="139.69"
+              class="bubble-color-5"
+              data-phrases="元気？|また話そうね！"
+            >
+              ありがとう！
+            </li>
+            <li
+              lang="es"
+              data-lat="4.71"
+              data-lon="-74.07"
+              class="bubble-color-6"
+              data-phrases="¿Nos vemos pronto?|Te extraño."
+            >
+              Quiero verte.
+            </li>
+            <li
+              lang="sw"
+              data-lat="-6.79"
+              data-lon="39.21"
+              class="bubble-color-7"
+              data-phrases="Uko salama?|Tuongee baadaye!"
+            >
+              Habari yako?
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section
+        class="relay-gallery"
+        id="features"
+        aria-labelledby="relay-gallery-title"
+      >
+        <div class="wrap relay-gallery-header">
+          <h2 id="relay-gallery-title">A closer look at Kall.</h2>
+        </div>
+        <ul
+          class="relay-gallery-track"
+          id="relay-gallery-track"
+          tabindex="0"
+          aria-label="Kall feature gallery"
+        >
+          <li class="relay-gallery-card">
+            <div class="relay-gallery-copy">
+              <h3>A username is all you need to get started.</h3>
+              <p>Sign up without an existing phone number or email address.</p>
+            </div>
+            <div
+              class="relay-gallery-art relay-gallery-signup"
+              aria-hidden="true"
+            >
+              <div class="relay-gallery-phone-crop">
+                <div class="relay-gallery-signup-device">
+                  <img
+                    src="relay-signup-front.webp"
+                    alt=""
+                    width="768"
+                    height="1536"
+                  />
+                  <div class="relay-gallery-phone-form">
+                    <div class="relay-gallery-phone-label">Username</div>
+                    <div class="relay-gallery-username">
+                      <span class="relay-gallery-username-value">alex</span
+                      ><span class="relay-gallery-username-caret"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="relay-gallery-card">
+            <div
+              class="relay-gallery-art relay-gallery-chat relay-gallery-share"
+              aria-hidden="true"
+            >
+              <div class="relay-gallery-share-artwork">
+                <b class="relay-gallery-handle"><span>@</span>alex.rivera</b>
+                <span class="relay-gallery-private-number"
+                  >+<span>1 (202) 555-0142</span></span
+                >
+              </div>
+            </div>
+            <div class="relay-gallery-copy">
+              <h3>Share your username. Keep your number to yourself.</h3>
+              <p>
+                Give someone a way to reach you without handing over your
+                personal number.
+              </p>
+            </div>
+          </li>
+          <li class="relay-gallery-card">
+            <img
+              class="relay-gallery-art relay-gallery-device-art"
+              src="relay-device-flat-lay-prototype.webp"
+              width="1536"
+              height="1024"
+              loading="lazy"
+              alt="Overhead arrangement of a laptop, tablet, phones, and a watch with illustrated Kall chats"
+            />
+            <div class="relay-gallery-copy">
+              <h3>Keep chatting in your browser.</h3>
+              <p>
+                Open Kall on your computer and pick up the conversation where
+                you left off.
+              </p>
+            </div>
+          </li>
+          <li class="relay-gallery-card">
+            <div class="relay-gallery-copy">
+              <h3>Get a number when you need one.</h3>
+              <p>
+                Add a U.S. number through Kall to call and text people outside
+                the app.
+              </p>
+            </div>
+            <div
+              class="relay-gallery-art relay-gallery-chat relay-gallery-calling"
+              aria-hidden="true"
+            >
+              <div class="relay-gallery-phone-crop">
+                <div class="relay-gallery-call-device">
+                  <img
+                    src="relay-calling-three-quarter.webp"
+                    alt=""
+                    width="660"
+                    height="1536"
+                  />
+                  <div class="relay-gallery-call">
+                    <span class="relay-gallery-call-state">Calling…</span>
+                    <b class="relay-gallery-call-number"
+                      ><span class="relay-gallery-call-reel"
+                        >+1 (202) 555-0198</span
+                      ></b
+                    >
+                    <span class="relay-gallery-handset">✆</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <div class="wrap relay-gallery-actions">
+          <button
+            type="button"
+            aria-label="Previous feature"
+            aria-controls="relay-gallery-track"
+          ></button>
+          <button
+            type="button"
+            aria-label="Next feature"
+            aria-controls="relay-gallery-track"
+          ></button>
+        </div>
+      </section>
+      <div class="wrap">
+        <section class="section" id="product" aria-labelledby="product-title">
+          <h2 id="product-title">Take your chats with you.</h2>
+          <div>
+            <p>
+              See when your messages are read and restore your conversations
+              when you switch computers.
+            </p>
+          </div>
+        </section>
+      </div>
+      <section
+        class="section privacy-section"
+        id="privacy"
+        aria-labelledby="privacy-title"
+      >
+        <div class="privacy-copy">
+          <h2 id="privacy-title">Private by design.</h2>
+          <p>
+            Kall-to-Kall chats are end-to-end encrypted. Kall doesn’t sell your
+            data or use your conversations to target ads.
+          </p>
+        </div>
+        <div class="privacy-stage">
+          <video
+            class="privacy-film"
+            muted
+            playsinline
+            preload="none"
+            poster="relay-privacy-poster.jpg"
+            width="1280"
+            height="720"
+            aria-label="Kall privacy film. An encrypted message travels overnight and appears on a phone at sunrise."
+          >
+            <source src="relay-privacy.mp4" type="video/mp4" />
+            <a href="relay-privacy.mp4">Watch the Kall privacy film</a>
+          </video>
+          <button class="privacy-toggle" type="button" hidden>Play film</button>
+        </div>
+      </section>
+
+      <div class="wrap">
+        <section
+          class="early-access"
+          id="early-access"
+          aria-labelledby="early-access-title"
+        >
+          <h2 id="early-access-title">Get early access to Kall.</h2>
+          <p>
+            Leave your email and we’ll let you know when early access opens.
+          </p>
+          <form action="/api/early-access" method="post">
+            <label for="early-access-email">Email address</label>
+            <div class="early-access-fields">
+              <input
+                id="early-access-email"
+                name="email"
+                type="email"
+                autocomplete="email"
+                maxlength="254"
+                aria-describedby="early-access-privacy"
+                required
+              />
+              <button class="button" type="submit">Request early access</button>
+            </div>
+            <p class="form-privacy" id="early-access-privacy">
+              We’ll use your email to contact you about Kall early access. See
+              our <a href="/privacy-policy/">Privacy Policy</a> for how to
+              request removal.
+            </p>
+            <p class="form-status" role="status"></p>
+          </form>
+        </section>
+      </div>
+    </main>
+    <footer class="wrap">
+      <span>Kall</span>
+      <div class="footer-details">
+        <a href="/privacy-policy/">Privacy Policy</a><span>United States</span>
+      </div>
+    </footer>
+    <script src="/home.js"></script>
+  </body>
+</html>
